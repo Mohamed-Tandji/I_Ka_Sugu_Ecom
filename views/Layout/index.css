@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style du footer */
+footer {
+  background-color: #333; /* Couleur de fond du footer */
+  color: #fff; /* Couleur du texte */
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style des éléments ordonnés */
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px; /* Espacement entre les éléments de liste */
+}
+
+/* Style des liens */
+footer a {
+  color: #fff; /* Couleur des liens */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline; /* Effet de soulignement au survol des liens */
+}
+
+.uli ul {
+list-style-type: none; /* Supprime les puces */
+padding: 0; /* Supprime le padding par défaut de la liste */
+display: flex; /* Utilise un modèle d'affichage flexbox */
+justify-content: space-around; /* Répartit les éléments de la liste horizontalement */
+align-items: center; /* Centre verticalement les éléments */
+}
+
+/* Styles pour les éléments de la liste */
+.uli ul li {
+margin-right: 20px; /* Marge entre les éléments */
+}
